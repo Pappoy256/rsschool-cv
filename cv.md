@@ -10,3 +10,9 @@ I'm 25 years old, and programming, as a symbiosis of creative and technical fiel
 Now, I have some free time and, more importantly, a desire to develop a new skill. I've always found it challenging to choose something specific from a vast selection, so this time, I decided to make a quick decision without delving into thoughts or comparisons. My choice was frontend development. 
 
 I believe that this will be at least an interesting adventure, and although I have no expectations, who knows what it will lead to? Great things often start with small steps. Among the aspects of my personality that I consider strong, I am known for my perseverance, attention to detail, and love for challenging and engaging tasks that I enjoy completing.
+## Skills
+- HTML on a very basic level
+- CSS on a basic level too
+- Git and GitHub
+- C language
+- VSCode as an editor
