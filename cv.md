@@ -4,6 +4,7 @@
 - E-mail: pappoy256@yandex.ru
 - GitHub: [pappoy256](https://github.com/Pappoy256)
 - Telegram: [ternoho](https://t.me/Ternoho)
+
 ## About me
 I'm 25 years old, and programming, as a symbiosis of creative and technical fields, has always been of interest to me. However, this interest was more of a background one, and I had never actively pursued a career in this field. That was the case. 
 
@@ -16,6 +17,7 @@ I believe that this will be at least an interesting adventure, and although I ha
 - Git and GitHub
 - C language
 - VSCode as an editor
+
 ## Code example
 Fragment from my realization of [magma cipher](https://www.ietf.org/rfc/rfc8891.pdf)
 ```
@@ -45,6 +47,7 @@ void magma_t_algorithm(const uint32_t in_data_block_half, uint32_t *out_data_blo
 ## Education
 ### [freecodecamp.org](https://www.freecodecamp.org/)
 - HTML/CSS course (in progress)
+
 ## Languages
 - Russian - native speaker
 - English - A2, In the way to B1
