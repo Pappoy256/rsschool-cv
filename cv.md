@@ -42,3 +42,6 @@ void magma_t_algorithm(const uint32_t in_data_block_half, uint32_t *out_data_blo
     };
 };
 ```
+## Education
+### [freecodecamp.org](https://www.freecodecamp.org/)
+- HTML/CSS course (in progress)
