@@ -16,3 +16,29 @@ I believe that this will be at least an interesting adventure, and although I ha
 - Git and GitHub
 - C language
 - VSCode as an editor
+## Code example
+Fragment from my realization of [magma cipher](https://www.ietf.org/rfc/rfc8891.pdf)
+```
+void magma_t_algorithm(const uint32_t in_data_block_half, uint32_t *out_data_block_half)
+
+{
+    uint8_t data_part[4];
+
+    // Разбиваем 32 битный блок на 4 блока по 8 бит;
+    data_part[0] = in_data_block_half & 0x000000ff;
+    data_part[1] = (in_data_block_half & 0x0000ff00) >> 8;
+    data_part[2] = (in_data_block_half & 0x00ff0000) >> 16;
+    data_part[3] = (in_data_block_half & 0xff000000) >> 24;
+  
+    uint8_t byte_first_half, byte_second_half;
+
+    for (int i = 0; i < 4; i++)
+    {
+        byte_first_half = s_box[i * 2][data_part[i] & 0x0f]; // Младший полубайт
+        byte_second_half = s_box[i * 2 + 1][(data_part[i] & 0xf0) >> 4]; // Старший полубайт
+
+        *out_data_block_half |= (byte_first_half | (byte_second_half << 4)) << (i * 8);
+
+    };
+};
+```
